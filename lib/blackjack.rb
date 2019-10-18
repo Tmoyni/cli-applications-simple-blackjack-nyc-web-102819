@@ -57,8 +57,12 @@ end
 def runner
   # loop with until
   welcome
-  initial_round
+  card_total = initial_round
+  until 
+    card_total > 21
+  end
   hit?
+  deal_card
   display_card_total
   end_game
 end
