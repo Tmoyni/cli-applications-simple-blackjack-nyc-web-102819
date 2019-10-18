@@ -57,6 +57,5 @@ end
 def runner
   # loop with until
   welcome
-  card_total = initial_round
 end
     
